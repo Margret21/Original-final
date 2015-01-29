@@ -1,5 +1,5 @@
 /* GLOBAL */
-
+body {font-family: 'Raleway', sans-serif;}
 
 /* NAV */
 nav a:link, 
@@ -19,9 +19,9 @@ nav a:active {
   background: #D9D6D2;
 }
 
+/* BIO */
 
+/* INDEX */
 img {width: 60%;
 	height: 60%;}
 
-
-/* BIO */
