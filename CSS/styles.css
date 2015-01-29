@@ -1,4 +1,5 @@
 /* GLOBAL */
+<<<<<<< HEAD
 h1 {
 	display: block;
 }
@@ -7,6 +8,9 @@ body {
 	font-family: 'Raleway', sans-serif;
 	line-height: 1.5;
 }
+=======
+body {font-family: 'Raleway', sans-serif;}
+>>>>>>> FETCH_HEAD
 
 /* NAV */
 .nav {
@@ -33,9 +37,18 @@ nav a:active {
   background: #D9D6D2;
 }
 
+<<<<<<< HEAD
 img {width: 60%;
 	height: 60%;}
 
 
 /* BIO */
 
+=======
+/* BIO */
+
+/* INDEX */
+img {width: 60%;
+	height: 60%;}
+
+>>>>>>> FETCH_HEAD
