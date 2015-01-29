@@ -1,7 +1,21 @@
 /* GLOBAL */
+h1 {
+	display: block;
+}
 
+body {
+	font-family: 'Raleway', sans-serif;
+	line-height: 1.5;
+}
 
 /* NAV */
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+
 nav a:link, 
 nav a:visited {
   text-decoration: none;
@@ -19,9 +33,9 @@ nav a:active {
   background: #D9D6D2;
 }
 
-
 img {width: 60%;
 	height: 60%;}
 
 
 /* BIO */
+
