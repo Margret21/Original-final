@@ -9,11 +9,16 @@ Coral E74C3C*/
 /* GLOBAL */
 h1 {
 	display: block;
+	font-family: 'Arvo', serif;
+	padding: 25px;
+	margin: 0 0 10px;
+	width: 100%;
 }
 
 body {
 	font-family: 'Raleway', sans-serif;
 	line-height: 1.5;
+	width: 80%;
 }
 
 body {font-family: 'Raleway', sans-serif;}
@@ -38,6 +43,7 @@ p {
 nav a:link {
 	color: #2C3E50;
 } 
+
 nav a:visited {
   color: #2C3E50;
 }
@@ -46,6 +52,7 @@ nav a:hover {
   background: #ECF0F1;
   color: #E74C3C;
 }
+
 nav a:active {
   background: #ECF0F1;
   color: #E74C3C;
