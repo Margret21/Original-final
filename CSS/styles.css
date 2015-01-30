@@ -1,5 +1,12 @@
+/* COLOR */
+/*Dark Blue 2C3E50
+Medium Blue 2980B9
+Light Blue 34A0DB
+White ECF0F1
+Coral E74C3C*/
+
+
 /* GLOBAL */
-<<<<<<< HEAD
 h1 {
 	display: block;
 }
@@ -8,47 +15,67 @@ body {
 	font-family: 'Raleway', sans-serif;
 	line-height: 1.5;
 }
-=======
+
 body {font-family: 'Raleway', sans-serif;}
->>>>>>> FETCH_HEAD
+
+ul {
+	list-style-type: none;
+}
+
+p {
+	padding: 10px;
+}
 
 /* NAV */
 .nav {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 10px;
     display: inline;
+    text-decoration: none;
 }
 
-nav a:link, 
+nav a:link {
+	color: #2C3E50;
+} 
 nav a:visited {
-  text-decoration: none;
-  color: #394C73;
+  color: #2C3E50;
 }
 
-nav a:focus {
-  background: red;
-}
 nav a:hover {
-  background: #D9D6D2;
-  color: #D94343;
+  background: #ECF0F1;
+  color: #E74C3C;
 }
 nav a:active {
-  background: #D9D6D2;
+  background: #ECF0F1;
+  color: #E74C3C;
 }
 
-<<<<<<< HEAD
 img {width: 60%;
 	height: 60%;}
 
 
 /* BIO */
+h1 {
+	color: #ECF0F1;
+	background: #2C3E50;	
+}
 
-=======
-/* BIO */
+h2 {
+	color: #ECF0F1;
+	background: #2980B9; 
+}
+
+h4 {
+	color: #ECF0F1;
+	background: #34A0DB; 
+}
+
+table td {
+	padding: 10px;
+}
 
 /* INDEX */
 img {width: 60%;
 	height: 60%;}
 
->>>>>>> FETCH_HEAD
