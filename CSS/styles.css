@@ -9,6 +9,7 @@ Coral E74C3C*/
 /* GLOBAL */
 .main-header {
   padding-top: 20px;
+  margin: 0;
   height: 200px;
   background: linear-gradient(#2C3E50 60%, transparent);}
 	
@@ -18,6 +19,7 @@ h1 {
 	padding: 25px;
 	margin: 0 0 10px;
 	font-size: 60px;
+	color: #ECF0F1;
 }
 
 body {
@@ -39,6 +41,16 @@ p {
   background: linear-gradient(transparent, #2C3E50 60%);}
 
 div {width: 80%;}
+
+h2 {
+	color: #ECF0F1;
+	background: #2980B9; 
+}
+
+h4 {
+	color: #ECF0F1;
+	background: #34A0DB; 
+}
 
 /* NAV */
 .nav {
@@ -69,35 +81,74 @@ a:active {
 
 
 /* BIO */
-h1 {
-	color: #ECF0F1;	
-}
-
-h2 {
-	color: #ECF0F1;
-	background: #2980B9; 
-}
-
-h4 {
-	color: #ECF0F1;
-	background: #34A0DB; 
-}
-
-table td {
+.bio table td {
 	padding: 10px;
 }
 
 /* INDEX */
-.float {
+.index .float {
 	float: left;
 }
 
-img {width: 40%;
+.index img {width: 40%;
 	height: 40%;
 	border-radius: 50%;
 	float: right;
 	margin: 20px;
 }
+
+
+/* Style Tile */
+section {
+	margin: 20px 0;
+}
+
+.color-1,
+.color-2,
+.color-3,
+.pattern-1,
+.pattern-2,
+.pattern-3, 
+.imagery-1,
+.imagery-2,
+.imagery-3 {
+	border: 1px solid #000;
+	float: left;
+	margin: 0 10px;
+	height: 50px;
+	width: 50px;
+}
+
+/* Set Your Own Typography */
+
+
+/* Set Your Own Margin & Padding */
+h2, h3, p {
+	margin: 0;
+}
+
+/* Clearfix - Oo Not Remove */
+.clearfix {clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0}
+
+
+/* Color Pallette*/
+.style-tile .color-1 {
+	background: #2C3E50;
+}
+
+.style-tile .color-2 {
+	background: #2980B9;
+}
+
+.style-tile .color-3 {
+	background: #34A0DB;
+}
+
+body .style-tile {
+	font-family: 'Raleway', sans-serif;
+}
+
+
 
 
 
