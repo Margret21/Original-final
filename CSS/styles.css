@@ -21,6 +21,14 @@ h1 {
 	font-size: 60px;
 	color: #ECF0F1;
 }
+h2 {
+	color: #ECF0F1;
+	background: #2980B9; 
+}
+h4 {
+	color: #ECF0F1;
+	background: #34A0DB; 
+}
 
 body {
 	font-family: 'Raleway', sans-serif;
@@ -42,15 +50,6 @@ p {
 
 div {width: 80%;}
 
-h2 {
-	color: #ECF0F1;
-	background: #2980B9; 
-}
-
-h4 {
-	color: #ECF0F1;
-	background: #34A0DB; 
-}
 
 /* NAV */
 .nav {
@@ -106,6 +105,8 @@ section {
 .color-1,
 .color-2,
 .color-3,
+.color-4,
+.color-5,
 .pattern-1,
 .pattern-2,
 .pattern-3, 
@@ -123,8 +124,9 @@ section {
 
 
 /* Set Your Own Margin & Padding */
-h2, h3, p {
+h2, h4, p, em {
 	margin: 0;
+	padding: 5px 10px;
 }
 
 /* Clearfix - Oo Not Remove */
@@ -135,13 +137,27 @@ h2, h3, p {
 .style-tile .color-1 {
 	background: #2C3E50;
 }
-
 .style-tile .color-2 {
 	background: #2980B9;
 }
-
 .style-tile .color-3 {
 	background: #34A0DB;
+}
+.style-tile .color-4 {
+	background: #ECF0F1;
+}
+.style-tile .color-5 {
+	background: #E74C3C;
+}
+
+.style-tile .pattern-1 {
+	background: url("../img/lightpaperfibers.png");
+}
+.style-tile .pattern-2 {
+	background: url("../img/brushed.png");
+}
+.style-tile .pattern-3 {
+	background: url("../img/strange_bullseyes.png");
 }
 
 body .style-tile {
