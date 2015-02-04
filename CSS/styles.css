@@ -23,7 +23,7 @@ h1 {
 }
 h2 {
 	color: #ECF0F1;
-	background: #2980B9; 
+	background: #2980B9;
 }
 h4 {
 	color: #ECF0F1;
@@ -85,14 +85,14 @@ a:active {
 }
 
 /* INDEX */
-.index .float {
+/*.index .float {
 	float: left;
-}
+}*/
 
 .index img {width: 40%;
 	height: 40%;
 	border-radius: 50%;
-	float: right;
+	/*float: right;*/
 	margin: 20px;
 }
 
